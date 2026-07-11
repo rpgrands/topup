@@ -70,8 +70,6 @@ document.addEventListener("click", (e) => {
 
 
 // =====================
-// OPTIONAL BUTTON LOGS (if meron ka)
-// =====================
 document.getElementById("shopBtn")?.addEventListener("click", () => {
 
 });
