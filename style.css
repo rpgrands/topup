@@ -27,9 +27,7 @@ body::before{
     pointer-events:none;
 }
 
-/* =========================================
-   INFO PANEL
-========================================= */
+
 .info-panel {
     position: absolute;
     left: 80px;
@@ -50,9 +48,7 @@ body::before{
     line-height:1.7;
 }
 
-/* =========================================
-   LOGIN BOX (SIMPLE CLEAN)
-========================================= */
+
 .login-box {
     position: absolute;
     top: 55%;
@@ -93,9 +89,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     letter-spacing: 2px;
 }
 
-/* =========================================
-   INPUT
-========================================= */
+
 .input-box {
     margin: 20px 0;
 }
@@ -127,9 +121,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     color: #aaa;
 }
 
-/* =========================================
-   BUTTON
-========================================= */
+
 .login-box button {
     width: 100%;
     height: 50px;
@@ -153,9 +145,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     background: #ffb300;
 }
 
-/* =========================================
-   LOGIN BUTTON (TOP RIGHT)
-========================================= */
+
 .open-login{
 
     position:fixed;
@@ -190,9 +180,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 
 }
 
-/* =========================================
-   TOP MENU
-========================================= */
+
 .top-center-menu{
 
     position:fixed;
@@ -245,7 +233,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     text-align: center;
     z-index: 2;
 
-    color: rgba(252, 252, 242, 0.55); /* 🔥 transparent text */
+    color: rgba(252, 252, 242, 0.55);
 }
 
 .hero-text h1 {
@@ -325,11 +313,11 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     color: white;
     text-align: center;
 
-    padding: 60px 80px;   /* 🔥 pinalaki */
+    padding: 60px 80px;   
     border-radius: 16px;
 
-    min-width: 420px;     /* 🔥 mas malapad */
-    min-height: 200px;    /* 🔥 mas mataas */
+    min-width: 420px;    
+    min-height: 200px;   
 
     opacity: 0;
     visibility: hidden;
@@ -340,13 +328,13 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 }
 
 .reward-popup h2 {
-    font-size: 32px;      /* 🔥 mas malaking title */
+    font-size: 32px;     
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
 
 .reward-popup p {
-    font-size: 18px;      /* 🔥 mas readable */
+    font-size: 18px;   
     color: #ddd;
 }
 
@@ -365,7 +353,6 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 
 
 
-/* floating effect */
 @keyframes floatUp{
     0%{
         transform: translate(-50%, -50%) scale(0.6);
@@ -380,9 +367,6 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 }
 
 
-/* =========================================
-   BONUS MESSAGE
-========================================= */
 .bonus-text{
     position:absolute;
     top:62%;
@@ -405,9 +389,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 }
 
 
-/* =========================================
-   📱 MOBILE RESPONSIVE
-========================================= */
+
 @media screen and (max-width:768px){
 
     body{
@@ -416,9 +398,6 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         overflow-x:hidden;
     }
 
-    /* ==========================
-       BRAND
-    ========================== */
     .top-left-brand{
         top:15px;
         left:18px;
@@ -433,9 +412,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         letter-spacing:1px;
     }
 
-    /* ==========================
-       TOP MENU
-    ========================== */
+
     .top-center-menu{
         top:70px;
         left:50%;
@@ -453,9 +430,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         font-size:11px;
     }
 
-    /* ==========================
-       LOGIN BUTTON
-    ========================== */
+
     .open-login{
         top:18px;
         right:18px;
@@ -464,9 +439,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         font-size:12px;
     }
 
-    /* ==========================
-       HERO
-    ========================== */
+
     .hero-text{
         position:absolute;
         top:45%;
@@ -488,9 +461,6 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     }
 
 
-    /* ==========================
-       DOWNLOAD BUTTON
-    ========================== */
     .download-apk{
         position:fixed;
         left:50%;
@@ -508,9 +478,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         border-radius:8px;
     }
 
-    /* ==========================
-       LOGIN BOX
-    ========================== */
+
     .login-box{
         position:fixed;
         top:50%;
@@ -542,9 +510,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         font-size:15px;
     }
 
-    /* ==========================
-       REWARD POPUP
-    ========================== */
+
     .reward-popup{
         width:90%;
         min-width:unset;
@@ -564,9 +530,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         font-size:12px;
     }
 
-    /* ==========================
-       INFO PANEL
-    ========================== */
+
     .info-panel{
         display:none;
     }
