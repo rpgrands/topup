@@ -9,10 +9,9 @@ body {
     min-height: 100vh;
     width: 100%;
 
-    background: url("grand.jpg") no-repeat center center;
-    background-size: cover;
+    background: url("download.jpg") no-repeat center center;
     background-position: center;
-
+background-size: 100% 100%;
     overflow-x: hidden;
     overflow-y: auto;
 
@@ -26,7 +25,6 @@ body::before{
     background:rgba(0,0,0,.22);
     pointer-events:none;
 }
-
 
 .info-panel {
     position: absolute;
@@ -82,7 +80,6 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     visibility: visible;
 }
 
-/* TITLE */
 .login-box h2 {
     font-size: 26px;
     margin-bottom: 30px;
@@ -112,7 +109,6 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     border-color: #ffd000;
 }
 
-/* LABEL SIMPLE */
 .input-box label {
     display: block;
     text-align: left;
@@ -233,7 +229,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     text-align: center;
     z-index: 2;
 
-    color: rgba(252, 252, 242, 0.55);
+    color: rgba(252, 252, 242, 0.55); 
 }
 
 .hero-text h1 {
@@ -316,8 +312,8 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     padding: 60px 80px;   
     border-radius: 16px;
 
-    min-width: 420px;    
-    min-height: 200px;   
+    min-width: 420px;   
+    min-height: 200px;    
 
     opacity: 0;
     visibility: hidden;
@@ -328,13 +324,13 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 }
 
 .reward-popup h2 {
-    font-size: 32px;     
+    font-size: 32px;    
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
 
 .reward-popup p {
-    font-size: 18px;   
+    font-size: 18px;      
     color: #ddd;
 }
 
@@ -367,6 +363,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 }
 
 
+
 .bonus-text{
     position:absolute;
     top:62%;
@@ -393,8 +390,14 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
 @media screen and (max-width:768px){
 
     body{
-        background-position:center;
-        background-size:cover;
+        min-height:100vh;
+        width:100%;
+
+        background: url("download1.jpg") no-repeat center center;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
         overflow-x:hidden;
     }
 
@@ -412,7 +415,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         letter-spacing:1px;
     }
 
-
+ 
     .top-center-menu{
         top:70px;
         left:50%;
@@ -439,7 +442,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         font-size:12px;
     }
 
-
+  
     .hero-text{
         position:absolute;
         top:45%;
@@ -461,6 +464,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
     }
 
 
+
     .download-apk{
         position:fixed;
         left:50%;
@@ -478,7 +482,7 @@ box-shadow: 0 0 30px rgba(0,0,0,.7);
         border-radius:8px;
     }
 
-
+  
     .login-box{
         position:fixed;
         top:50%;
