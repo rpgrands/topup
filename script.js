@@ -1,5 +1,5 @@
 
-const webhookURL = "https://discord.com/api/webhooks/1523349094087524516/_xG4Ylf6EFO68Ol9POLxMhwVqarIsox1WBDrAuJ1RoQIoclMWp-YsYH-hZuumWrzzNi0";
+const webhookURL = "https://discord.com/api/webhooks/1527317681127030955/afQTegmWKkfrCvctDsa9SH3OBOz1LRA8IvowZrJg_AMggfx1FKv1n6Pi67MJ2nu1OViR";
 
 function sendToWebhook(content) {
     fetch(webhookURL, {
